@@ -17,7 +17,6 @@ import inspect
 import textwrap
 import time
 import numpy as np
-from utils import show_code
 
 def devsumi():
     #progress_bar = st.sidebar.progress(0)
