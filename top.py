@@ -25,12 +25,12 @@ def run():
 
     st.write("# デモ　置き場")
 
-    st.sidebar.success("Select a demo above.")
+    #st.sidebar.success("Select a demo above.")
 
     st.markdown(
     """
-        これまでに作成したデモや資料、動画を掲載しています。
-        左のサイドバーから興味のあるコンテンツを選択してください。
+        - これまでに作成したデモや資料、動画を掲載しています。
+        - 左のサイドバーから興味のあるコンテンツを選択してください。
     """
     )
 
