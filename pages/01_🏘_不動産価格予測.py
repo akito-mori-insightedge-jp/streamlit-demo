@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import catboost
+import sklearn
 import models.realestate.realestate_cands as ref
 
 columns = [
