@@ -29,13 +29,16 @@ tab1.video("https://youtu.be/RdZtctqcI70")
 tab2.write(
     """火災報知器では検出できないような、煙が少ないタイプの火災を検出したい"""
 )
+
 tab2.markdown("""
               - 手法の選択肢はいくつか存在
                   - 炎や煙を直接検出する
                   - 何らかの異常を検出する(Demo)
               """)
 
-tab2.video("https://www.youtube.com/shorts/s_9Iswp5M9w")
+#tab2.video("https://www.youtube.com/shorts/s_9Iswp5M9w")
+with tab2.container():
+    tab2.video("data/smoke_predicted.mp4")
 
 # tab3
 tab3.write(
