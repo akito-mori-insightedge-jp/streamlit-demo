@@ -9,7 +9,6 @@ import pandas as pd
 import pickle
 import requests
 import streamlit.components.v1 as stc
-from bs4 import BeautifulSoup 
 import yaml
 import cv2
 
