@@ -7,4 +7,4 @@ catboost==1.0.4
 scikit-learn==1.0.2
 #opencv-python
 opencv-python-headless
-pyyaml==5.3.1
+PyYAML>=5.4
