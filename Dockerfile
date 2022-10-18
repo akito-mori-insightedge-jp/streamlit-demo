@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git@github.com:akito-mori-insightedge-jp/streamlit-demo.git .
+RUN git clone https://github.com/akito-mori-insightedge-jp/streamlit-demo.git .
 
 RUN pip3 install -r requirements.txt
 
